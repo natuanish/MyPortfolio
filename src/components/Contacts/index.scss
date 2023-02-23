@@ -1,0 +1,55 @@
+.contact-page {
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 90%;
+    }
+
+    h1 {
+        color:#fff;
+        font-size: 53px;
+        margin: 0;
+        font-family: 'La Belle Aurore';
+        font-weight: 400;
+    }
+
+    .contact-links {
+        margin-top: 20px;
+
+        .contact-link {
+            color: #fff;
+            font-size: 20px;
+            font-weight: 400;
+            margin-right: 10px;
+            display: inline-block;
+
+            &:hover {
+                color: #ffd700;
+            }
+
+            i {
+                margin-right: 5px;
+                color: #ffd700;
+            }
+        }
+    }
+
+    .contact-details {
+        margin-top: 20px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 400;
+
+        p {
+            margin: 0;
+        }
+    }
+}
+
+
+
+
+
